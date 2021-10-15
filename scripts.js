@@ -56,4 +56,11 @@ window.onload = function() {
     
   document.querySelector(".copyright").innerHTML += "<p><strong>This recipe was taken for the purpose of a school project for DTC 477 at Washington State University.<strong></p>";
   
+  
+  
+  
+  loadFileInto("ingredients.html", "#ingredients ul");
+  loadFileInto("equipment.html", "#equipment ul");
+  loadFileInto("directions.html", "#directions ol");
+  
 } // end of window.onload
